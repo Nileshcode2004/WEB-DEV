@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Link Examples</title>
+</head>
+<body>
+<div>
+    <!-- Name:Nilesh Verma roll-no:2100290120114 -->
+    <h2>Set an image as a link</h2>
+    <a href="https://www.kiet.edu/">
+        <img src="./frreepro.html/kiet-journal.jpg" alt="KIET Image" width="200" height="150">
+    </a>
+</div>
+<hr>
+<div id="link">
+    <h2>Open a link in a new browser window</h2>
+    <a href="https://www.example.com" target="_blank">Open in new window</a>
+</div>
+<hr>
+<div>
+    <h2>Jump to another part of the document</h2>
+    <p><a href="#link">Jump to Section 2</a></p>
+</div>
+<hr>
+<div>
+    <h2>Link to a mail message with CC, BCC, and Subject</h2>
+    <a href="mailto:recipient@example.com?cc=cc@example.com&bcc=bcc@example.com&subject=Example Subject">Send Mail</a>
+</div>
+<hr>
+<div id="redirect">
+    <h2>Redirect after 5 seconds after onclick</h2>
+    <p onclick="a()">click_to_redirect</p>
+</div>
+<script>
+    // Redirect after 5 seconds
+    var a=setTimeout(function() {
+        window.location.href = "https://www.kiet.edu/";
+    }, 25000);
+</script>
+</body>
+</html>

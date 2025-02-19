@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Link Examples</title>
+    <script>
+        // Redirect user to another URL after 5 seconds
+        setTimeout(function() {
+            window.location.href = "https://www.example.com";
+        }, 5000);
+    </script>
+</head>
+<body>
+
+<!-- Set an image as a link -->
+<p>Set an image as a link:</p>
+<a href="https://www.example.com">
+    <img src="image.jpg" alt="Example Image">
+</a>
+
+<!-- Open a link in a new browser window -->
+<p>Open a link in a new browser window:</p>
+<a href="https://www.example.com" target="_blank">Visit Example</a>
+
+<!-- Jump to another part of a document (on the same page) -->
+<p>Jump to another part of a document:</p>
+<a href="#section2">Jump to Section 2</a>
+<p id="section2">Section 2</p>
+
+<!-- Link to a mail message with CC, BCC, and Subject entries -->
+<p>Link to a mail message with CC, BCC, and Subject entries:</p>
+<a href="mailto:recipient@example.com?cc=cc@example.com&bcc=bcc@example.com&subject=Example Subject">Send Email</a>
+
+</body>
+</html>
